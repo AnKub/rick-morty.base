@@ -1,12 +1,8 @@
 import React, { useState, useEffect } from "react";
 import ReactPaginate from "react-paginate";
 
-const Pagination = ({ pageNumber, info, updatePageNumber }) => {
-  let pageChange = (data) => {
-    updatePageNumber(data.selected + 1);
-  };
-
-  const [width, setWidth] = useState(window.innerWidth);
+const Pagination = ({ pageNumber, info, setPageNumber }) => {
+   const [width, setWidth] = useState(window.innerWidth);
   const updateDimensions = () => {
     setWidth(window.innerWidth);
   };
