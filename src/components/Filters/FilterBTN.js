@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FilterBTN = ({name, index, items, task, setPageNumber}) => {
+const FilterBTN = ({ name, index, items, task, setPageNumber}) => {
   return (
   <div>
     <style jsx>

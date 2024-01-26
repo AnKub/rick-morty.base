@@ -20,7 +20,7 @@ const Filters = ({setStatus, setPageNumber, setGender, setSpecies}) => {
       style={{cursor: 'pointer'}} 
       className='text-center text-primary text-decoration-underline mb-4'>Clear filters</div>
        
-       <div className="accordion" id="accordionExample"> 
+       <div className=" accordion" id="accordionExample"> 
        <Status setPageNumber={setPageNumber} setStatus={setStatus} />
        <Species setSpesies={setSpecies} setPageNumber={setPageNumber}/>
        <Gender setGender={setGender} setPageNumber={setPageNumber}/>

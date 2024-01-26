@@ -1,12 +1,19 @@
 $radius:10px;
 
 .cards{
-border: 2px solid rgba(5, 126, 247, 0.927);
+border: 2px solid #1d2c44;
+box-shadow:0 0 10px  #1d2c44;
 border-radius: $radius;
+  background-color:#1d2c44;
+  color:rgb(183, 214, 242);
+
 }
 
 .img{
 border-radius:$radius $radius 0 0;
+}
+.imgs{
+border-radius:$radius;
 }
 
 .badge{

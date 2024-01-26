@@ -5,6 +5,11 @@ body {
 }
 .ubuntu{
   font-family:'Ubuntu';
+ 
+}
+.navy{
+  background-color:#1d2c44;
+  color:rgb(183, 214, 242);
 }
 
 code {

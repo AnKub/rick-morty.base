@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import styles from './cards.module.scss';
 
 const CardDetails = () => {
   let { id } = useParams();
@@ -17,11 +18,11 @@ const CardDetails = () => {
   }, [api]);
 
   return (
-    <div className="container d-flex justify-content-center mb-5">
-      <div className="d-flex flex-column gap-3">
+    <div className=" cards container d-flex justify-content-center mb-5">
+      <div className={`${styles.cards} d-flex flex-column gap-3`}>
         <h1 className="text-center">{name}</h1>
 
-        <img className="img-fluid" src={image} alt="" />
+        <img className={`${styles.imgs} img-fluid`} src={image} alt="" />
         {(() => {
           if (status === "Dead") {
             return <div className="badge bg-danger fs-5">{status}</div>;
