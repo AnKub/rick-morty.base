@@ -1,4 +1,4 @@
-# Rick and Morty Wiki Database 🚀
+# Rick and Morty Wiki D-base 🚀
 
 ## 📌 Project Overview
 This project is a database for the animated TV series **Rick and Morty**. Built with React, it allows users to browse characters, episodes, and locations from the show.
